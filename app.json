@@ -8,7 +8,7 @@
       "web"
     ],
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "designcode"
+    },
+    "android": {
+      "package": "com.smartcodehub.smartcourse",
+      "versionCode": 1
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
